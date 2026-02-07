@@ -1,0 +1,8 @@
+name = "worker-a"
+main = "src/index.js"
+compatibility_date = "2025-12-01"
+
+# Service Binding を定義
+[[services]]
+binding = "WORKER_B"
+service = "worker-b"
